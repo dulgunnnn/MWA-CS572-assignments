@@ -45,3 +45,46 @@ module.exports.addPublisher = function (req, res) {
     }
   });
 };
+
+module.exports.updatePublisher = function (req, res) {
+  Game.findById(req.params.gameId).exec(function (err, game) {
+    if (game.publisher === null)
+      res.status(404).send("Publisher does not exists");
+    else {
+      game.publisher.name = req.body.name;
+      game.publisher.country = req.body.country;
+
+      game.save(function (err, game) {
+        if (err) console.log("err", err);
+        res.status(201).send("Publisher updated");
+      });
+    }
+  });
+};
+
+module.exports.partialUpdatePublisher = function (req, res) {
+  Game.findById(req.params.gameId).exec(function (err, game) {
+    if (game.publisher === null)
+      res.status(404).send("Publisher does not exists");
+    else {
+      if (req.body.name) game.publisher.name = req.body.name;
+      if (req.body.country) game.publisher.country = req.body.country;
+
+      game.save(function (err, game) {
+        if (err) console.log("err", err);
+        res.status(201).send("Publisher updated");
+      });
+    }
+  });
+};
+
+module.exports.deletePublisher = function (req, res) {
+  Game.findByIdAndDelete(req.params.gameId).exec(function (err, game) {
+    if (err) {
+      console.log("err", err);
+      res.status(500).json(err);
+    } else {
+      res.status(201).send("Publisher updated");
+    }
+  });
+};
