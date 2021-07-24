@@ -6,9 +6,11 @@ Lab04_1/node_modules
 Lab04_1/package-lock.json
 Lab04_2/node_modules
 Lab04_2/package-lock.json
-Lab05_meanGames_publisher/node_modules
-Lab05_meanGames_publisher/package-lock.json
-Lab05_meanGames_review/node_modules
-Lab05_meanGames_review/package-lock.json
-Lab05_school/node_modules
-Lab05_school/package-lock.json
+Lab05_1_meanGames/node_modules
+Lab05_1_meanGames/package-lock.json
+Lab05_2_meanGames_publisher/node_modules
+Lab05_2_meanGames_publisher/package-lock.json
+Lab05_3_meanGames_review/node_modules
+Lab05_3_meanGames_review/package-lock.json
+Lab05_4_school/node_modules
+Lab05_4_school/package-lock.json
