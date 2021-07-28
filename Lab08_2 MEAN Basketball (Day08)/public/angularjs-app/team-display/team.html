@@ -1,0 +1,11 @@
+<h1>Information about the team</h1>
+<p>
+    {{ teamCtrl.team.city | city}}<br />
+    {{ teamCtrl.team.name | name }}<br />
+    Year: {{ teamCtrl.team.year }}<br />
+
+<ol>Roster:
+    <li ng-repeat="player in teamCtrl.team.roster track by $index">{{ player.firstName }} {{ player.lastName }}
+        ({{ player.position }}) {{ player.height }}</li>
+</ol>
+</p>
