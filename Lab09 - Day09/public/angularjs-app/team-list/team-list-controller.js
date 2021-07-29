@@ -15,6 +15,7 @@ function TeamsController(TeamsFactory) {
   vm.addTeam = function () {
     if (vm.teamForm.$valid) {
       TeamsFactory.addOneTeam(vm.formTeam).then(function (response) {
+        vm.formTeam = {};
         fetchAll();
       });
     }
