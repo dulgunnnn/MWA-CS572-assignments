@@ -1,0 +1,88 @@
+<div class="container">
+    <div class="row">
+        <h1>{{ vm.title }}</h1>
+
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item" ng-repeat="team in vm.teams">
+                <h2 class="accordion-header d-flex" id={{team._id}}>
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-{{team._id}}" aria-expanded="false" aria-controls="flush-{{team._id}}">
+                        <a href="/#!/teams/{{team._id}}">{{ team.city }} {{ team.name }}</a>
+                    </button><button class="btn btn-link p-0 rounded-pill text-danger"
+                        ng-click="vm.delete(team._id)">delete</button>
+                </h2>
+                <div id="flush-{{team._id}}" class="accordion-collapse collapse" aria-labelledby={{team._id}}
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body text-dark">
+                        <form name="vm.teamForm" ng-submit="vm.editTeam(team._id)">
+                            City: <input type="text" name="city" ng-model="vm.formTeamEdit.city" /><br />
+                            Name: <input type="text" name="name" ng-model="vm.formTeamEdit.name" /><br />
+                            Conference: <input type="text" name="conference"
+                                ng-model="vm.formTeamEdit.conference" /><br />
+                            Year: <input type="text" name="year" ng-model="vm.formTeamEdit.year"
+                                pattern="[0-9]{4}" /><span
+                                ng-if="vm.formTeamEdit.teamForm.year.$dirty && vm.formTeamEdit.teamForm.year.$invalid">The
+                                year
+                                must be 4 digit number</span><br />
+                            <button class="btn btn-success mt-2" type="submit">Edit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- <ol class="list-group list-group-numbered">
+            <li ng-repeat="team in vm.teams" class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                    <div class="fw-bold">
+                        <a href="/#!/teams/{{team._id}}">{{ team.city }} {{ team.name }}</a>
+                    </div>
+                    {{ team.roster | count }} players
+                </div>
+                <button type="button" class="btn btn-link p-0 me-4" data-bs-toggle="modal" data-bs-target="#editModal">
+                    edit
+                </button>
+                <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="editModalLabel">Edit {{ team.city }} {{ team.name }}</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form name="vm.teamForm" ng-submit="vm.editTeam(team._id)">
+                                    City: <input type="text" name="city" ng-model="vm.formTeamEdit.city" /><br />
+                                    Name: <input type="text" name="name" ng-model="vm.formTeamEdit.name" /><br />
+                                    Conference: <input type="text" name="conference"
+                                        ng-model="vm.formTeamEdit.conference" /><br />
+                                    Year: <input type="text" name="year" ng-model="vm.formTeamEdit.year"
+                                        pattern="[0-9]{4}" /><span
+                                        ng-if="vm.formTeamEdit.teamForm.year.$dirty && vm.formTeamEdit.teamForm.year.$invalid">The
+                                        year
+                                        must be 4 digit number</span><br />
+                                    <button class="btn btn-success mt-2" type="submit">Save changes</button>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-link p-0 rounded-pill text-danger" ng-click="vm.delete(team._id)">delete</button>
+            </li>
+        </ol> -->
+
+        <form name="vm.teamForm" ng-submit="vm.addTeam()">
+            Add a new team<br />
+            City: <input type="text" name="city" required ng-model="vm.formTeam.city" />
+            Name: <input type="text" name="name" required ng-model="vm.formTeam.name" /><br />
+            Conference: <input type="text" name="conference" ng-model="vm.formTeam.conference" />
+            Year: <input type="text" name="year" ng-model="vm.formTeam.year" required pattern="[0-9]{4}" /><span
+                ng-if="vm.formTeam.teamForm.year.$dirty && vm.formTeam.teamForm.year.$invalid">The year
+                must be 4 digit number</span><br />
+            <button class="btn btn-success mt-2" type="submit">Add Team</button>
+        </form>
+    </div>
+</div>
