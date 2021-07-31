@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="jobApp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="resources/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="angularjs-app/css/custom.css" />
+
+    <script src="resources/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="resources/angular/angular.js"></script>
+    <script src="resources/angular-route/angular-route.js"></script>
+    <script src="angularjs-app/app.js"></script>
+    <script src="angularjs-app/job-list/jobs-controller.js"></script>
+    <script src="angularjs-app/job-item/job-controller.js"></script>
+    <script src="angularjs-app/directive/job-navigation/job-navigation-controller.js"></script>
+    <script src="angularjs-app/factory/job-factory.js"></script>
+    <script src="angularjs-app/filters/customDate.js"></script>
+</head>
+
+<body class="bg-light">
+    <job-navigation></job-navigation>
+    <div ng-view></div>
+</body>
+
+</html>

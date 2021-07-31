@@ -1,0 +1,115 @@
+<main class="container">
+    <div class="d-flex align-items-center p-3 my-3 text-white bg-secondary rounded shadow-sm">
+        <div class="lh-1">
+            <h1 class="h6 mb-0 text-white lh-1">Job Search Application</h1>
+        </div>
+    </div>
+
+    <div class="my-3 p-3 bg-body rounded shadow-sm">
+        <div class="border-bottom pb-2 mb-0 d-flex justify-content-between align-items-center">
+            <h6>Jobs</h6>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#addModal">
+                Add Job
+            </button>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="addModal" tabindex="-1" aria-labelledby="addModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="addModalLabel">New Job</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="d-flex flex-column" ng-submit="vm.addJob()">
+                            <input class="form-control mb-2" type="text" placeholder="Title"
+                                ng-model="vm.jobForm.title">
+
+                            <input class="form-control mb-2" type="text" placeholder="Description"
+                                ng-model="vm.jobForm.description">
+
+                            <input class="form-control mb-2" type="text" placeholder="Experience"
+                                ng-model="vm.jobForm.experience">
+
+                            <input class="form-control mb-2" type="text" placeholder="salary"
+                                ng-model="vm.jobForm.salary">
+
+                            <button class="btn btn-outline-success" type="submit">Create</button>
+                        </form>
+                    </div>
+                    <!-- <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion accordion-flush" id="accordionFlushEdit">
+            <div class="accordion-item" ng-repeat="job in vm.jobs track by $index">
+                <div class="d-flex text-muted py-3">
+                    <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32"
+                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32"
+                        preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <rect width="100%" height="100%" fill="#6f42c1"></rect><text x="50%" y="50%" fill="#6f42c1"
+                            dy=".3em">32x32</text>
+                    </svg>
+
+                    <div class="d-flex w-100">
+                        <a href="#/jobs/{{job._id}}" class="mb-0 small lh-sm  me-auto text-decoration-none">
+                            <strong class="d-block text-gray-dark">{{ job.title }}</strong>
+                            <span class="text-muted">{{ job.description }}</span>
+                        </a><button class="collapsed btn me-2 btn-sm btn-link" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapse{{job._id}}" aria-expanded="false"
+                            aria-controls="flush-collapse{{job._id}}">
+                            Edit
+                        </button>
+                        <small class="d-flex align-items-center">{{ job.postDate | customDate }}</small>
+                        <button ng-click="vm.delete(job._id)" class="btn btn-inline-danger btn-sm ms-2">❌</button>
+                    </div>
+                </div>
+
+                <div id="flush-collapse{{job._id}}" class="accordion-collapse collapse"
+                    aria-labelledby="flush-heading{{job._id}}" data-bs-parent="#accordionFlushEdit">
+                    <div class="accordion-body">
+                        <form class="d-flex flex-column" ng-submit="vm.editJob(job._id)">
+                            <input class="form-control mb-2" type="text" placeholder="Title"
+                                ng-model="vm.editForm.title">
+
+                            <input class="form-control mb-2" type="text" placeholder="Description"
+                                ng-model="vm.editForm.description">
+
+                            <input class="form-control mb-2" type="text" placeholder="Experience"
+                                ng-model="vm.editForm.experience">
+
+                            <input class="form-control mb-2" type="text" placeholder="salary"
+                                ng-model="vm.editForm.salary">
+
+                            <button class="btn btn-outline-success" type="submit">Update</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- <small class="d-block text-end mt-3">
+            <a href="#/jobs">All Jobs</a>
+        </small> -->
+    </div>
+</main>
+
+<div class="position-fixed top-0 end-0 p-3" style="z-index: 11">
+    <div id="liveToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header">
+            <strong class="me-auto">Added!</strong>
+            <small>just now</small>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body">
+            New job has been added.
+        </div>
+    </div>
+</div>
