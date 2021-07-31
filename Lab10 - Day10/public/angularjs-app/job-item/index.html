@@ -12,7 +12,7 @@
         <div class="d-flex flex-column text-muted py-3 border-bottom">
             <div>Description: {{ vm.job.description }}</div>
             <div>Experience: {{ vm.job.experience }}</div>
-            <div>Salary: {{ vm.job.salary }}</div>
+            <div>Salary: {{ vm.job.salary | salary }}</div>
             <div>Date: {{vm.job.postDate | customDate}}</div>
             <div>
                 <span ng-repeat="skill in vm.job.skills">{{ skill }}</span>
