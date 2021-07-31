@@ -1,0 +1,103 @@
+[{
+	"_id": {
+		"$oid": "6104584bd6c27564948d628e"
+	},
+	"title": "Marketing manager",
+	"salary": 120.0,
+	"location": {
+		"_id": {
+			"$oid": "61046fdb2a44a838dcae7c8d"
+		},
+		"zipcode": 52556,
+		"address1": "Address 1"
+	},
+	"description": "Management",
+	"experience": "Java 2 year",
+	"skills": [],
+	"postDate": {
+		"$date": "2021-07-30T21:34:58Z"
+	},
+	"__v": 1,
+	"reviews": []
+},
+{
+	"_id": {
+		"$oid": "61049b2e95e4524174519d2e"
+	},
+	"skills": [],
+	"location": {
+		"_id": {
+			"$oid": "61049b2e95e4524174519d30"
+		}
+	},
+	"title": "Computer scientist",
+	"salary": 120,
+	"description": "research and development",
+	"experience": "Java 2 year",
+	"postDate": {
+		"$date": "2021-07-31T00:37:02.833Z"
+	},
+	"reviews": [],
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "61049c476b60bb1364565854"
+	},
+	"skills": [],
+	"location": {
+		"_id": {
+			"$oid": "61049c476b60bb1364565856"
+		}
+	},
+	"title": "Python developer",
+	"salary": 200,
+	"description": "develops and maintain applications",
+	"experience": "no experience needed",
+	"postDate": {
+		"$date": "2021-07-31T00:41:43.317Z"
+	},
+	"reviews": [],
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6104afadd820c2522c726d9f"
+	},
+	"skills": [],
+	"location": {
+		"_id": {
+			"$oid": "6104afadd820c2522c726da1"
+		}
+	},
+	"title": "Software developer",
+	"salary": 200,
+	"description": "Java development",
+	"experience": "not mandatory",
+	"postDate": {
+		"$date": "2021-07-31T02:04:29.503Z"
+	},
+	"reviews": [],
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6104b164d820c2522c726e2a"
+	},
+	"skills": [],
+	"location": {
+		"_id": {
+			"$oid": "6104b164d820c2522c726e2c"
+		}
+	},
+	"title": "Java developer",
+	"salary": 200,
+	"description": "java development",
+	"experience": "experience",
+	"postDate": {
+		"$date": "2021-07-31T02:11:48.557Z"
+	},
+	"reviews": [],
+	"__v": 0
+}]
+
