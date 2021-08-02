@@ -1,0 +1,63 @@
+<div class="container">
+    <div class="row">
+        <h1>{{ vm.title }}</h1>
+
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item" ng-repeat="game in vm.games">
+                    <h2 class="accordion-header d-flex" id={{game._id}}>
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-{{game._id}}" aria-expanded="false"
+                            aria-controls="flush-{{game._id}}">
+                            <a href="/#!/games/{{game._id}}">{{ game.title }}</a>
+                        </button>
+                        <button class="btn btn-link px-3 py-0 rounded-pill text-danger" ng-click="vm.delete(game._id)">
+                            delete
+                        </button>
+                    </h2>
+                    <div id="flush-{{game._id}}" class="accordion-collapse collapse" aria-labelledby={{game._id}}
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body text-dark">
+                            <form name="vm.gameForm" ng-submit="vm.editGame(game._id)">
+                                Title: <input type="text" name="title" ng-model="vm.formGameEdit.title" /><br />
+                                Price: <input type="text" name="price" ng-model="vm.formGameEdit.price" /><br />
+                                Year: <input type="text" name="year" ng-model="vm.formGameEdit.year" /><br />
+                                Rating: <input type="text" name="rate" ng-model="vm.formGameEdit.rate"
+                                    pattern="[1-5]" /><span
+                                    ng-if="vm.formGameEdit.gameForm.rate.$dirty && vm.formGameEdit.gameForm.rate.$invalid">The
+                                    rate
+                                    must be a number between
+                                    1-5</span><br />
+                                Min Players: <input type="text" name="minPlayers"
+                                    ng-model="vm.formGameEdit.minPlayers" /><br />
+                                Max Players: <input type="text" name="maxPlayers"
+                                    ng-model="vm.formGameEdit.maxPlayers" /><br />
+                                Min Age: <input type="text" name="minAge" ng-model="vm.formGameEdit.minAge" /><br />
+                                Designer Name: <input type="text" name="designer"
+                                    ng-model="vm.formGameEdit.designer" /><br />
+                                <button class="btn btn-primary" type="submit">Edit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <form name="vm.gameForm" ng-submit="vm.addGame()">
+                To add a new game please fill in all the fields below:<br />
+                Title: <input type="text" name="title" required ng-model="vm.formGame.title" /><br />
+                Price: <input type="text" name="price" ng-model="vm.formGame.price" /><br />
+                Year: <input type="text" name="year" ng-model="vm.formGame.year" /><br />
+                Rating: <input type="text" name="rate" ng-model="vm.formGame.rate" pattern="[1-5]" /><span
+                    ng-if="vm.formGame.gameForm.rate.$dirty && vm.formGame.gameForm.rate.$invalid">The rate
+                    must be a number between
+                    1-5</span><br />
+                Min Players: <input type="text" name="minPlayers" ng-model="vm.formGame.minPlayers" /><br />
+                Max Players: <input type="text" name="maxPlayers" ng-model="vm.formGame.maxPlayers" /><br />
+                Min Age: <input type="text" name="minAge" ng-model="vm.formGame.minAge" /><br />
+                Designer Name: <input type="text" name="designer" ng-model="vm.formGame.designer" /><br />
+                <button class="btn btn-primary" type="submit">Add Game</button>
+            </form>
+        </div>
+    </div>
