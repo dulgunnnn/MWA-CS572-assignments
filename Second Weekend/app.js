@@ -3,6 +3,7 @@ require("dotenv").config();
 require("./api/data/db");
 const path = require("path");
 const router = require("./api/routes");
+const routerUser = require("./api/routes/users");
 
 const app = express();
 
@@ -17,6 +18,7 @@ app.use(function (req, res, next) {
 app.use("/resources", express.static(path.join(__dirname, "node_modules")));
 app.use(express.static(process.env.PUBLIC_FOLDER));
 
+app.use("/api/user", routerUser);
 app.use("/api", router);
 
 const server = app.listen(process.env.PORT, function () {
