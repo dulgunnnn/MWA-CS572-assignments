@@ -1,4 +1,4 @@
-angular.module("meanGames").controller("LoginController", LoginController);
+angular.module("meanBasketball").controller("LoginController", LoginController);
 
 function LoginController(
   UserFactory,
@@ -8,7 +8,7 @@ function LoginController(
   $jwtHelper
 ) {
   const vm = this;
-  vm.test = "Sda";
+
   vm.isLoggedIn = function () {
     return AuthFactory.authenticated;
   };

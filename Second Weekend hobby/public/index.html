@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="meanBasketball">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEAN Basketball Homepage</title>
+    <link href="resources/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/custom.css" rel="stylesheet" />
+</head>
+
+<body class="bg-dark text-white">
+    <navigation></navigation>
+    <div ng-view></div>
+    <footer class="text-center p-3 bg-light">
+        <a href="https://compro.miu.edu/" target="_blank">
+            <img src="img/compro-web-logo-442x112.png" alt="MIU" height="60" />
+        </a>
+    </footer>
+
+    <script src="resources/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="resources/angular/angular.min.js"></script>
+    <script src="resources/angular-route/angular-route.js"></script>
+    <script src="resources/angular-jwt/dist/angular-jwt.js"></script>
+    <script src="angularjs-app/app.js"></script>
+    <script src="angularjs-app/team-list/team-list-controller.js"></script>
+    <script src="angularjs-app/teamsFactory/teams-factory.js"></script>
+    <script src="angularjs-app/team-display/team-display-controller.js"></script>
+    <script src="angularjs-app/filters/count.js"></script>
+    <script src="angularjs-app/directive/navigation/nav-directive.js"></script>
+    <script src="angularjs-app/login/login-controller.js"></script>
+    <script src="angularjs-app/register/register-controller.js"></script>
+    <script src="angularjs-app/authentication/auth-factory.js"></script>
+    <script src="angularjs-app/authentication/auth-interceptor.js"></script>
+    <script src="angularjs-app/factory/user-factory.js"></script>
+</body>
+
+</html>

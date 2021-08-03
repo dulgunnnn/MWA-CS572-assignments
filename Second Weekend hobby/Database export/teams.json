@@ -1,0 +1,2374 @@
+[{
+	"_id": {
+		"$oid": "5fbed15c07a5894b456a4348"
+	},
+	"name": "Mavericks",
+	"year": 1947.0,
+	"conference": "East",
+	"roster": [
+		{
+			"firstName": "Alex",
+			"lastName": "Caruso",
+			"position": "Point Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461276"
+			}
+		},
+		{
+			"firstName": "Anthony",
+			"lastName": "Davis",
+			"position": "Power Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461277"
+			}
+		},
+		{
+			"firstName": "LeBron",
+			"lastName": "James",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461278"
+			}
+		},
+		{
+			"firstName": "Kentavious",
+			"lastName": "Caldwell-pope",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461279"
+			}
+		},
+		{
+			"firstName": "Kyle",
+			"lastName": "Kuzma",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e046127a"
+			}
+		},
+		{
+			"firstName": "Talen",
+			"lastName": "Horton-Tucker",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e046127b"
+			}
+		}
+	],
+	"city": "Dallas"
+},
+{
+	"_id": {
+		"$oid": "5fbed15c07a5894b456a4338"
+	},
+	"name": "Nuggets",
+	"year": 1947.0,
+	"conference": "West",
+	"roster": [
+		{
+			"firstName": "Alex",
+			"lastName": "Caruso",
+			"position": "Point Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e046127c"
+			}
+		},
+		{
+			"firstName": "Anthony",
+			"lastName": "Davis",
+			"position": "Power Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e046127d"
+			}
+		},
+		{
+			"firstName": "LeBron",
+			"lastName": "James",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e046127e"
+			}
+		},
+		{
+			"firstName": "Kentavious",
+			"lastName": "Caldwell-pope",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e046127f"
+			}
+		},
+		{
+			"firstName": "Kyle",
+			"lastName": "Kuzma",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461280"
+			}
+		},
+		{
+			"firstName": "Talen",
+			"lastName": "Horton-Tucker",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461281"
+			}
+		}
+	],
+	"city": "Denver"
+},
+{
+	"_id": {
+		"$oid": "5fbed15c07a5894b456a4349"
+	},
+	"name": "Trail Blazers",
+	"year": 1947.0,
+	"conference": "West",
+	"roster": [
+		{
+			"firstName": "Alex",
+			"lastName": "Caruso",
+			"position": "Point Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461282"
+			}
+		},
+		{
+			"firstName": "Anthony",
+			"lastName": "Davis",
+			"position": "Power Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461283"
+			}
+		},
+		{
+			"firstName": "LeBron",
+			"lastName": "James",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461284"
+			}
+		},
+		{
+			"firstName": "Kentavious",
+			"lastName": "Caldwell-pope",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461285"
+			}
+		},
+		{
+			"firstName": "Kyle",
+			"lastName": "Kuzma",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461286"
+			}
+		},
+		{
+			"firstName": "Talen",
+			"lastName": "Horton-Tucker",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461287"
+			}
+		}
+	],
+	"city": "Portland"
+},
+{
+	"_id": {
+		"$oid": "5fbed15c07a5894b456a434b"
+	},
+	"name": "Grizzlies",
+	"year": 1947.0,
+	"conference": "West",
+	"roster": [
+		{
+			"firstName": "Alex",
+			"lastName": "Caruso",
+			"position": "Point Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461288"
+			}
+		},
+		{
+			"firstName": "Anthony",
+			"lastName": "Davis",
+			"position": "Power Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461289"
+			}
+		},
+		{
+			"firstName": "LeBron",
+			"lastName": "James",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e046128a"
+			}
+		},
+		{
+			"firstName": "Kentavious",
+			"lastName": "Caldwell-pope",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e046128b"
+			}
+		},
+		{
+			"firstName": "Kyle",
+			"lastName": "Kuzma",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e046128c"
+			}
+		},
+		{
+			"firstName": "Talen",
+			"lastName": "Horton-Tucker",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e046128d"
+			}
+		}
+	],
+	"city": "Memphis"
+},
+{
+	"_id": {
+		"$oid": "5fbed15c07a5894b456a434c"
+	},
+	"name": "Warriors",
+	"year": 1947.0,
+	"conference": "West",
+	"roster": [
+		{
+			"firstName": "Alex",
+			"lastName": "Caruso",
+			"position": "Point Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e046128e"
+			}
+		},
+		{
+			"firstName": "Anthony",
+			"lastName": "Davis",
+			"position": "Power Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e046128f"
+			}
+		},
+		{
+			"firstName": "LeBron",
+			"lastName": "James",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461290"
+			}
+		},
+		{
+			"firstName": "Kentavious",
+			"lastName": "Caldwell-pope",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461291"
+			}
+		},
+		{
+			"firstName": "Kyle",
+			"lastName": "Kuzma",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461292"
+			}
+		},
+		{
+			"firstName": "Talen",
+			"lastName": "Horton-Tucker",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461293"
+			}
+		}
+	],
+	"city": "Golden State"
+},
+{
+	"_id": {
+		"$oid": "5fbed15c07a5894b456a433c"
+	},
+	"name": "Spurs",
+	"year": 1947.0,
+	"conference": "West",
+	"roster": [
+		{
+			"firstName": "Alex",
+			"lastName": "Caruso",
+			"position": "Point Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461294"
+			}
+		},
+		{
+			"firstName": "Anthony",
+			"lastName": "Davis",
+			"position": "Power Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461295"
+			}
+		},
+		{
+			"firstName": "LeBron",
+			"lastName": "James",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461296"
+			}
+		},
+		{
+			"firstName": "Kentavious",
+			"lastName": "Caldwell-pope",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461297"
+			}
+		},
+		{
+			"firstName": "Kyle",
+			"lastName": "Kuzma",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461298"
+			}
+		},
+		{
+			"firstName": "Talen",
+			"lastName": "Horton-Tucker",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461299"
+			}
+		}
+	],
+	"city": "San Antonio"
+},
+{
+	"_id": {
+		"$oid": "5fbed15c07a5894b456a4337"
+	},
+	"name": "Pelicans",
+	"year": 1947.0,
+	"conference": "West",
+	"roster": [
+		{
+			"firstName": "Alex",
+			"lastName": "Caruso",
+			"position": "Point Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e046129a"
+			}
+		},
+		{
+			"firstName": "Anthony",
+			"lastName": "Davis",
+			"position": "Power Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e046129b"
+			}
+		},
+		{
+			"firstName": "LeBron",
+			"lastName": "James",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e046129c"
+			}
+		},
+		{
+			"firstName": "Kentavious",
+			"lastName": "Caldwell-pope",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e046129d"
+			}
+		},
+		{
+			"firstName": "Kyle",
+			"lastName": "Kuzma",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e046129e"
+			}
+		},
+		{
+			"firstName": "Talen",
+			"lastName": "Horton-Tucker",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e046129f"
+			}
+		}
+	],
+	"city": "New Orleans"
+},
+{
+	"_id": {
+		"$oid": "5fbed15c07a5894b456a433b"
+	},
+	"name": "Kings",
+	"year": 1947.0,
+	"conference": "West",
+	"roster": [
+		{
+			"firstName": "Alex",
+			"lastName": "Caruso",
+			"position": "Point Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612a0"
+			}
+		},
+		{
+			"firstName": "Anthony",
+			"lastName": "Davis",
+			"position": "Power Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612a1"
+			}
+		},
+		{
+			"firstName": "LeBron",
+			"lastName": "James",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612a2"
+			}
+		},
+		{
+			"firstName": "Kentavious",
+			"lastName": "Caldwell-pope",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612a3"
+			}
+		},
+		{
+			"firstName": "Kyle",
+			"lastName": "Kuzma",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612a4"
+			}
+		},
+		{
+			"firstName": "Talen",
+			"lastName": "Horton-Tucker",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612a5"
+			}
+		}
+	],
+	"city": "Sacramento"
+},
+{
+	"_id": {
+		"$oid": "5fbed15c07a5894b456a4345"
+	},
+	"name": "Clippers",
+	"year": 1947.0,
+	"conference": "West",
+	"roster": [
+		{
+			"firstName": "Alex",
+			"lastName": "Caruso",
+			"position": "Point Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612a6"
+			}
+		},
+		{
+			"firstName": "Anthony",
+			"lastName": "Davis",
+			"position": "Power Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612a7"
+			}
+		},
+		{
+			"firstName": "LeBron",
+			"lastName": "James",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612a8"
+			}
+		},
+		{
+			"firstName": "Kentavious",
+			"lastName": "Caldwell-pope",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612a9"
+			}
+		},
+		{
+			"firstName": "Kyle",
+			"lastName": "Kuzma",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612aa"
+			}
+		},
+		{
+			"firstName": "Talen",
+			"lastName": "Horton-Tucker",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612ab"
+			}
+		}
+	],
+	"city": "Los Angeles"
+},
+{
+	"_id": {
+		"$oid": "5fbed15c07a5894b456a4347"
+	},
+	"roster": [
+		{
+			"firstName": "Alex",
+			"lastName": "Caruso",
+			"position": "Point Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612ac"
+			}
+		},
+		{
+			"firstName": "Anthony",
+			"lastName": "Davis",
+			"position": "Power Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612ad"
+			}
+		},
+		{
+			"firstName": "LeBron",
+			"lastName": "James",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612ae"
+			}
+		},
+		{
+			"firstName": "Kentavious",
+			"lastName": "Caldwell-pope",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612af"
+			}
+		},
+		{
+			"firstName": "Kyle",
+			"lastName": "Kuzma",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612b0"
+			}
+		},
+		{
+			"firstName": "Talen",
+			"lastName": "Horton-Tucker",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612b1"
+			}
+		}
+	],
+	"city": "Utah",
+	"conference": "West",
+	"name": "Jazz",
+	"year": 1947.0
+},
+{
+	"_id": {
+		"$oid": "5fbed15c07a5894b456a434e"
+	},
+	"name": "Timberwolves",
+	"year": 1947.0,
+	"conference": "West",
+	"roster": [
+		{
+			"firstName": "Alex",
+			"lastName": "Caruso",
+			"position": "Point Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612b2"
+			}
+		},
+		{
+			"firstName": "Anthony",
+			"lastName": "Davis",
+			"position": "Power Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612b3"
+			}
+		},
+		{
+			"firstName": "LeBron",
+			"lastName": "James",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612b4"
+			}
+		},
+		{
+			"firstName": "Kentavious",
+			"lastName": "Caldwell-pope",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612b5"
+			}
+		},
+		{
+			"firstName": "Kyle",
+			"lastName": "Kuzma",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612b6"
+			}
+		},
+		{
+			"firstName": "Talen",
+			"lastName": "Horton-Tucker",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612b7"
+			}
+		}
+	],
+	"city": "Minnesota"
+},
+{
+	"_id": {
+		"$oid": "5fbed15c07a5894b456a433a"
+	},
+	"name": "Thunder",
+	"year": 1947.0,
+	"conference": "West",
+	"roster": [
+		{
+			"firstName": "Alex",
+			"lastName": "Caruso",
+			"position": "Point Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612b8"
+			}
+		},
+		{
+			"firstName": "Anthony",
+			"lastName": "Davis",
+			"position": "Power Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612b9"
+			}
+		},
+		{
+			"firstName": "LeBron",
+			"lastName": "James",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612ba"
+			}
+		},
+		{
+			"firstName": "Kentavious",
+			"lastName": "Caldwell-pope",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612bb"
+			}
+		},
+		{
+			"firstName": "Kyle",
+			"lastName": "Kuzma",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612bc"
+			}
+		},
+		{
+			"firstName": "Talen",
+			"lastName": "Horton-Tucker",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612bd"
+			}
+		}
+	],
+	"city": "Oklahola City"
+},
+{
+	"_id": {
+		"$oid": "5fbed15c07a5894b456a433d"
+	},
+	"name": "Rockets",
+	"year": 1947.0,
+	"conference": "West",
+	"roster": [
+		{
+			"firstName": "Alex",
+			"lastName": "Caruso",
+			"position": "Point Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612be"
+			}
+		},
+		{
+			"firstName": "Anthony",
+			"lastName": "Davis",
+			"position": "Power Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612bf"
+			}
+		},
+		{
+			"firstName": "LeBron",
+			"lastName": "James",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612c0"
+			}
+		},
+		{
+			"firstName": "Kentavious",
+			"lastName": "Caldwell-pope",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612c1"
+			}
+		},
+		{
+			"firstName": "Kyle",
+			"lastName": "Kuzma",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612c2"
+			}
+		},
+		{
+			"firstName": "Talen",
+			"lastName": "Horton-Tucker",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612c3"
+			}
+		}
+	],
+	"city": "Houston"
+},
+{
+	"_id": {
+		"$oid": "5fbed15c07a5894b456a433e"
+	},
+	"name": "Nets",
+	"year": 1947.0,
+	"conference": "West",
+	"roster": [
+		{
+			"firstName": "Alex",
+			"lastName": "Caruso",
+			"position": "Point Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612c4"
+			}
+		},
+		{
+			"firstName": "Anthony",
+			"lastName": "Davis",
+			"position": "Power Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612c5"
+			}
+		},
+		{
+			"firstName": "LeBron",
+			"lastName": "James",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612c6"
+			}
+		},
+		{
+			"firstName": "Kentavious",
+			"lastName": "Caldwell-pope",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612c7"
+			}
+		},
+		{
+			"firstName": "Kyle",
+			"lastName": "Kuzma",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612c8"
+			}
+		},
+		{
+			"firstName": "Talen",
+			"lastName": "Horton-Tucker",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612c9"
+			}
+		}
+	],
+	"city": "Brooklyn"
+},
+{
+	"_id": {
+		"$oid": "5fbed15c07a5894b456a4346"
+	},
+	"name": "76ers",
+	"year": 1947.0,
+	"conference": "West",
+	"roster": [
+		{
+			"firstName": "Alex",
+			"lastName": "Caruso",
+			"position": "Point Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612ca"
+			}
+		},
+		{
+			"firstName": "Anthony",
+			"lastName": "Davis",
+			"position": "Power Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612cb"
+			}
+		},
+		{
+			"firstName": "LeBron",
+			"lastName": "James",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612cc"
+			}
+		},
+		{
+			"firstName": "Kentavious",
+			"lastName": "Caldwell-pope",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612cd"
+			}
+		},
+		{
+			"firstName": "Kyle",
+			"lastName": "Kuzma",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612ce"
+			}
+		},
+		{
+			"firstName": "Talen",
+			"lastName": "Horton-Tucker",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612cf"
+			}
+		}
+	],
+	"city": "Philadelphia"
+},
+{
+	"_id": {
+		"$oid": "5fbed15c07a5894b456a4336"
+	},
+	"name": "Knicks",
+	"year": 1947.0,
+	"conference": "West",
+	"roster": [
+		{
+			"firstName": "Alex",
+			"lastName": "Caruso",
+			"position": "Point Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612d0"
+			}
+		},
+		{
+			"firstName": "Anthony",
+			"lastName": "Davis",
+			"position": "Power Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612d1"
+			}
+		},
+		{
+			"firstName": "LeBron",
+			"lastName": "James",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612d2"
+			}
+		},
+		{
+			"firstName": "Kentavious",
+			"lastName": "Caldwell-pope",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612d3"
+			}
+		},
+		{
+			"firstName": "Kyle",
+			"lastName": "Kuzma",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612d4"
+			}
+		},
+		{
+			"firstName": "Talen",
+			"lastName": "Horton-Tucker",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612d5"
+			}
+		}
+	],
+	"__v": 4,
+	"city": "New York"
+},
+{
+	"_id": {
+		"$oid": "5fbed15c07a5894b456a4340"
+	},
+	"name": "Bucks",
+	"year": 1947.0,
+	"conference": "West",
+	"roster": [
+		{
+			"firstName": "Alex",
+			"lastName": "Caruso",
+			"position": "Point Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612d6"
+			}
+		},
+		{
+			"firstName": "Anthony",
+			"lastName": "Davis",
+			"position": "Power Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612d7"
+			}
+		},
+		{
+			"firstName": "LeBron",
+			"lastName": "James",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612d8"
+			}
+		},
+		{
+			"firstName": "Kentavious",
+			"lastName": "Caldwell-pope",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612d9"
+			}
+		},
+		{
+			"firstName": "Kyle",
+			"lastName": "Kuzma",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612da"
+			}
+		},
+		{
+			"firstName": "Talen",
+			"lastName": "Horton-Tucker",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612db"
+			}
+		}
+	],
+	"city": "Milwuakee"
+},
+{
+	"_id": {
+		"$oid": "5fbed15c07a5894b456a433f"
+	},
+	"name": "Hawks",
+	"year": 1947.0,
+	"conference": "West",
+	"roster": [
+		{
+			"firstName": "Alex",
+			"lastName": "Caruso",
+			"position": "Point Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612dc"
+			}
+		},
+		{
+			"firstName": "Anthony",
+			"lastName": "Davis",
+			"position": "Power Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612dd"
+			}
+		},
+		{
+			"firstName": "LeBron",
+			"lastName": "James",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612de"
+			}
+		},
+		{
+			"firstName": "Kentavious",
+			"lastName": "Caldwell-pope",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612df"
+			}
+		},
+		{
+			"firstName": "Kyle",
+			"lastName": "Kuzma",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612e0"
+			}
+		},
+		{
+			"firstName": "Talen",
+			"lastName": "Horton-Tucker",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612e1"
+			}
+		}
+	],
+	"city": "Atlanta"
+},
+{
+	"_id": {
+		"$oid": "5fbed15c07a5894b456a434a"
+	},
+	"name": "Lakers",
+	"year": 1947.0,
+	"conference": "West",
+	"roster": [
+		{
+			"firstName": "Alex",
+			"lastName": "Caruso",
+			"position": "Point Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612e2"
+			}
+		},
+		{
+			"firstName": "Anthony",
+			"lastName": "Davis",
+			"position": "Power Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612e3"
+			}
+		},
+		{
+			"firstName": "LeBron",
+			"lastName": "James",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612e4"
+			}
+		},
+		{
+			"firstName": "Kentavious",
+			"lastName": "Caldwell-pope",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612e5"
+			}
+		},
+		{
+			"firstName": "Kyle",
+			"lastName": "Kuzma",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612e6"
+			}
+		},
+		{
+			"firstName": "Talen",
+			"lastName": "Horton-Tucker",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612e7"
+			}
+		}
+	],
+	"city": "Los Angeles"
+},
+{
+	"_id": {
+		"$oid": "5fbed15c07a5894b456a4339"
+	},
+	"name": "Suns",
+	"year": 1947.0,
+	"conference": "West",
+	"roster": [
+		{
+			"firstName": "Alex",
+			"lastName": "Caruso",
+			"position": "Point Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612e8"
+			}
+		},
+		{
+			"firstName": "Anthony",
+			"lastName": "Davis",
+			"position": "Power Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612e9"
+			}
+		},
+		{
+			"firstName": "LeBron",
+			"lastName": "James",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612ea"
+			}
+		},
+		{
+			"firstName": "Kentavious",
+			"lastName": "Caldwell-pope",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612eb"
+			}
+		},
+		{
+			"firstName": "Kyle",
+			"lastName": "Kuzma",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612ec"
+			}
+		},
+		{
+			"firstName": "Talen",
+			"lastName": "Horton-Tucker",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612ed"
+			}
+		}
+	],
+	"city": "Phoenix"
+},
+{
+	"_id": {
+		"$oid": "5fbed15c07a5894b456a4341"
+	},
+	"name": "Heat",
+	"year": 1947.0,
+	"conference": "West",
+	"roster": [
+		{
+			"firstName": "Alex",
+			"lastName": "Caruso",
+			"position": "Point Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612ee"
+			}
+		},
+		{
+			"firstName": "Anthony",
+			"lastName": "Davis",
+			"position": "Power Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612ef"
+			}
+		},
+		{
+			"firstName": "LeBron",
+			"lastName": "James",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612f0"
+			}
+		},
+		{
+			"firstName": "Kentavious",
+			"lastName": "Caldwell-pope",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612f1"
+			}
+		},
+		{
+			"firstName": "Kyle",
+			"lastName": "Kuzma",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612f2"
+			}
+		},
+		{
+			"firstName": "Talen",
+			"lastName": "Horton-Tucker",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612f3"
+			}
+		}
+	],
+	"city": "Miami"
+},
+{
+	"_id": {
+		"$oid": "5fbed15c07a5894b456a434d"
+	},
+	"name": "Celtics",
+	"year": 1947.0,
+	"conference": "West",
+	"roster": [
+		{
+			"firstName": "Alex",
+			"lastName": "Caruso",
+			"position": "Point Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612f4"
+			}
+		},
+		{
+			"firstName": "Anthony",
+			"lastName": "Davis",
+			"position": "Power Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612f5"
+			}
+		},
+		{
+			"firstName": "LeBron",
+			"lastName": "James",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612f6"
+			}
+		},
+		{
+			"firstName": "Kentavious",
+			"lastName": "Caldwell-pope",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612f7"
+			}
+		},
+		{
+			"firstName": "Kyle",
+			"lastName": "Kuzma",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612f8"
+			}
+		},
+		{
+			"firstName": "Talen",
+			"lastName": "Horton-Tucker",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612f9"
+			}
+		}
+	],
+	"__v": 1,
+	"city": "Boston"
+},
+{
+	"_id": {
+		"$oid": "5fbed15c07a5894b456a4343"
+	},
+	"name": "Pacers",
+	"year": 1947.0,
+	"conference": "West",
+	"roster": [
+		{
+			"firstName": "Alex",
+			"lastName": "Caruso",
+			"position": "Point Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612fa"
+			}
+		},
+		{
+			"firstName": "Anthony",
+			"lastName": "Davis",
+			"position": "Power Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612fb"
+			}
+		},
+		{
+			"firstName": "LeBron",
+			"lastName": "James",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612fc"
+			}
+		},
+		{
+			"firstName": "Kentavious",
+			"lastName": "Caldwell-pope",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612fd"
+			}
+		},
+		{
+			"firstName": "Kyle",
+			"lastName": "Kuzma",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612fe"
+			}
+		},
+		{
+			"firstName": "Talen",
+			"lastName": "Horton-Tucker",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e04612ff"
+			}
+		}
+	],
+	"city": "Indiana"
+},
+{
+	"_id": {
+		"$oid": "5fd422b3d5ad149988baf728"
+	},
+	"name": "Bulls",
+	"year": 1947.0,
+	"conference": "West",
+	"roster": [
+		{
+			"firstName": "Alex",
+			"lastName": "Caruso",
+			"position": "Point Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461300"
+			}
+		},
+		{
+			"firstName": "Anthony",
+			"lastName": "Davis",
+			"position": "Power Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461301"
+			}
+		},
+		{
+			"firstName": "LeBron",
+			"lastName": "James",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461302"
+			}
+		},
+		{
+			"firstName": "Kentavious",
+			"lastName": "Caldwell-pope",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461303"
+			}
+		},
+		{
+			"firstName": "Kyle",
+			"lastName": "Kuzma",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461304"
+			}
+		},
+		{
+			"firstName": "Talen",
+			"lastName": "Horton-Tucker",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461305"
+			}
+		}
+	],
+	"__v": 1,
+	"city": "Chicago"
+},
+{
+	"_id": {
+		"$oid": "5fbed15c07a5894b456a4342"
+	},
+	"name": "Wizards",
+	"year": 1947.0,
+	"conference": "West",
+	"roster": [
+		{
+			"firstName": "Alex",
+			"lastName": "Caruso",
+			"position": "Point Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461306"
+			}
+		},
+		{
+			"firstName": "Anthony",
+			"lastName": "Davis",
+			"position": "Power Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461307"
+			}
+		},
+		{
+			"firstName": "LeBron",
+			"lastName": "James",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461308"
+			}
+		},
+		{
+			"firstName": "Kentavious",
+			"lastName": "Caldwell-pope",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461309"
+			}
+		},
+		{
+			"firstName": "Kyle",
+			"lastName": "Kuzma",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e046130a"
+			}
+		},
+		{
+			"firstName": "Talen",
+			"lastName": "Horton-Tucker",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e046130b"
+			}
+		}
+	],
+	"city": "Washington"
+},
+{
+	"_id": {
+		"$oid": "5fc6e9b6b1c5983fa631561a"
+	},
+	"name": "Hornets",
+	"year": 1947.0,
+	"conference": "West",
+	"roster": [
+		{
+			"firstName": "Alex",
+			"lastName": "Caruso",
+			"position": "Point Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e046130c"
+			}
+		},
+		{
+			"firstName": "Anthony",
+			"lastName": "Davis",
+			"position": "Power Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e046130d"
+			}
+		},
+		{
+			"firstName": "LeBron",
+			"lastName": "James",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e046130e"
+			}
+		},
+		{
+			"firstName": "Kentavious",
+			"lastName": "Caldwell-pope",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e046130f"
+			}
+		},
+		{
+			"firstName": "Kyle",
+			"lastName": "Kuzma",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461310"
+			}
+		},
+		{
+			"firstName": "Talen",
+			"lastName": "Horton-Tucker",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461311"
+			}
+		}
+	],
+	"__v": 1,
+	"city": "Charlotte"
+},
+{
+	"_id": {
+		"$oid": "5fbed15c07a5894b456a4344"
+	},
+	"name": "Raptors",
+	"year": 1947.0,
+	"conference": "West",
+	"roster": [
+		{
+			"firstName": "Alex",
+			"lastName": "Caruso",
+			"position": "Point Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461312"
+			}
+		},
+		{
+			"firstName": "Anthony",
+			"lastName": "Davis",
+			"position": "Power Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461313"
+			}
+		},
+		{
+			"firstName": "LeBron",
+			"lastName": "James",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461314"
+			}
+		},
+		{
+			"firstName": "Kentavious",
+			"lastName": "Caldwell-pope",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461315"
+			}
+		},
+		{
+			"firstName": "Kyle",
+			"lastName": "Kuzma",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461316"
+			}
+		},
+		{
+			"firstName": "Talen",
+			"lastName": "Horton-Tucker",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461317"
+			}
+		}
+	],
+	"city": "Toronto"
+},
+{
+	"_id": {
+		"$oid": "60fb65ae430cb1a115b5e56d"
+	},
+	"name": "Cavaliers",
+	"__v": 1,
+	"city": "Cleveland",
+	"conference": "West",
+	"year": 1947.0,
+	"roster": [
+		{
+			"firstName": "Alex",
+			"lastName": "Caruso",
+			"position": "Point Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461318"
+			}
+		},
+		{
+			"firstName": "Anthony",
+			"lastName": "Davis",
+			"position": "Power Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461319"
+			}
+		},
+		{
+			"firstName": "LeBron",
+			"lastName": "James",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e046131a"
+			}
+		},
+		{
+			"firstName": "Kentavious",
+			"lastName": "Caldwell-pope",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e046131b"
+			}
+		},
+		{
+			"firstName": "Kyle",
+			"lastName": "Kuzma",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e046131c"
+			}
+		},
+		{
+			"firstName": "Talen",
+			"lastName": "Horton-Tucker",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e046131d"
+			}
+		}
+	]
+},
+{
+	"_id": {
+		"$oid": "5fdc162b2812a32e5ef30065"
+	},
+	"name": "Magic",
+	"year": 1947.0,
+	"conference": "West",
+	"roster": [
+		{
+			"firstName": "Alex",
+			"lastName": "Caruso",
+			"position": "Point Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e046131e"
+			}
+		},
+		{
+			"firstName": "Anthony",
+			"lastName": "Davis",
+			"position": "Power Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e046131f"
+			}
+		},
+		{
+			"firstName": "LeBron",
+			"lastName": "James",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461320"
+			}
+		},
+		{
+			"firstName": "Kentavious",
+			"lastName": "Caldwell-pope",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461321"
+			}
+		},
+		{
+			"firstName": "Kyle",
+			"lastName": "Kuzma",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461322"
+			}
+		},
+		{
+			"firstName": "Talen",
+			"lastName": "Horton-Tucker",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461323"
+			}
+		}
+	],
+	"__v": 1,
+	"city": "Orlando"
+},
+{
+	"_id": {
+		"$oid": "5fdc14318526dc2c5926cae5"
+	},
+	"name": "Pistons",
+	"year": 1947.0,
+	"conference": "West",
+	"roster": [
+		{
+			"firstName": "Alex",
+			"lastName": "Caruso",
+			"position": "Point Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461324"
+			}
+		},
+		{
+			"firstName": "Anthony",
+			"lastName": "Davis",
+			"position": "Power Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461325"
+			}
+		},
+		{
+			"firstName": "LeBron",
+			"lastName": "James",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461326"
+			}
+		},
+		{
+			"firstName": "Kentavious",
+			"lastName": "Caldwell-pope",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461327"
+			}
+		},
+		{
+			"firstName": "Kyle",
+			"lastName": "Kuzma",
+			"position": "Forward",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461328"
+			}
+		},
+		{
+			"firstName": "Talen",
+			"lastName": "Horton-Tucker",
+			"position": "Shooting Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186,
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e0461329"
+			}
+		}
+	],
+	"__v": 1,
+	"city": "Detroit"
+},
+{
+	"_id": {
+		"$oid": "60fdb879204c5d1b7c6e9da8"
+	},
+	"name": "Supersonics",
+	"year": 1947,
+	"city": "Seattle",
+	"conference": "West",
+	"roster": [
+		{
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e046132a"
+			},
+			"firstName": "Alex",
+			"lastName": "Caruso",
+			"position": "Point Guard",
+			"experience": 5,
+			"height": "6'4",
+			"weight": 186
+		},
+		{
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e046132b"
+			},
+			"firstName": "1",
+			"lastName": "Durant",
+			"position": "Guard",
+			"experience": 11,
+			"height": "6'8",
+			"weight": 240
+		},
+		{
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e046132c"
+			},
+			"firstName": "Kevin",
+			"lastName": "Lovesht",
+			"position": "Forward",
+			"experience": 11,
+			"height": "6'8",
+			"weight": 240
+		},
+		{
+			"_id": {
+				"$oid": "60fe11ee84bdaa43e046132d"
+			},
+			"firstName": "Kevin",
+			"lastName": "Love",
+			"position": "Forward",
+			"experience": 11,
+			"height": "6'8",
+			"weight": 240
+		}
+	],
+	"__v": 13
+}]
+
