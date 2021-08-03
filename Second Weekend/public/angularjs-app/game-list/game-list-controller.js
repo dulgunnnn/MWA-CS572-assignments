@@ -1,6 +1,6 @@
 angular.module("meanGames").controller("GamesController", GamesController);
 
-function GamesController(GamesFactory) {
+function GamesController(GamesFactory, $route, AuthFactory) {
   const vm = this;
   vm.title = "Mean Games List";
 
@@ -35,5 +35,9 @@ function GamesController(GamesFactory) {
       vm.formGameEdit = {};
       fetchAll();
     });
+  };
+
+  vm.isLoggedIn = function () {
+    return AuthFactory.isLoggedIn;
   };
 }
