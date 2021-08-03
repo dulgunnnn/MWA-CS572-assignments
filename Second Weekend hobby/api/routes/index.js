@@ -1,20 +1,21 @@
 const express = require("express");
 const controllerTeams = require("../controller/teams.controller");
 const controllerPlayers = require("../controller/players.controller");
+const controllerUsers = require("../controller/users.controller");
 
 const router = express.Router();
 
 router
   .route("/teams")
   .get(controllerTeams.teamsGetAll)
-  .post(controllerTeams.teamsAddOne);
+  .post(controllerUsers.authenticate, controllerTeams.teamsAddOne);
 
 router
   .route("/teams/:teamId")
   .get(controllerTeams.teamsGetOne)
-  .put(controllerTeams.teamsUpdateOne)
-  .patch(controllerTeams.teamsPartialUpdateOne)
-  .delete(controllerTeams.teamsDeleteOne);
+  .put(controllerUsers.authenticate, controllerTeams.teamsUpdateOne)
+  .patch(controllerUsers.authenticate, controllerTeams.teamsPartialUpdateOne)
+  .delete(controllerUsers.authenticate, controllerTeams.teamsDeleteOne);
 
 router
   .route("/teams/:teamId/players")

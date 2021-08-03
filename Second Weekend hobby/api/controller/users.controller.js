@@ -56,7 +56,7 @@ module.exports.login = (req, res) => {
         { expiresIn: 3600 }
       );
 
-      res.status(201).json({ success: "Success", token: token });
+      res.status(201).json({ success: true, token: token });
     });
   });
 };

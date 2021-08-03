@@ -5,24 +5,29 @@ function LoginController(
   AuthFactory,
   $window,
   $location,
-  $jwtHelper
+  jwtHelper
 ) {
   const vm = this;
 
   vm.isLoggedIn = function () {
-    return AuthFactory.authenticated;
+    return AuthFactory.isLoggedIn ? true : false;
   };
+  if ($window.sessionStorage.token)
+    vm.loggedInUser = jwtHelper.decodeToken(
+      $window.sessionStorage.token
+    ).username;
 
   vm.login = function () {
-    console.log("login request angularjs");
-    UserFactory.login({ username: vm.username, password: vm.username })
+    UserFactory.login({ username: vm.username, password: vm.password })
       .then((response) => {
-        console.log("login response", response);
         if (response.success) {
           vm.err = "";
           $window.sessionStorage.token = response.token;
+
           const token = $window.sessionStorage.token;
-          const decodedToken = jwtHelper.decodedToken(token);
+
+          const decodedToken = jwtHelper.decodeToken(token);
+
           vm.loggedInUser = decodedToken.username;
           AuthFactory.isLoggedIn = true;
           vm.username = "";
@@ -42,7 +47,7 @@ function LoginController(
   };
 
   vm.isActiveTab = function (url) {
-    const currentPath = $location.path.split(".")[1];
+    const currentPath = $location.path().split("/")[1];
     return url === currentPath ? "active" : "";
   };
 }

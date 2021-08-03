@@ -4,15 +4,21 @@
 
         <div class="accordion accordion-flush" id="accordionFlushExample">
             <div class="accordion-item" ng-repeat="team in vm.teams">
-                <h2 class="accordion-header d-flex" id={{team._id}}>
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-{{team._id}}" aria-expanded="false" aria-controls="flush-{{team._id}}">
-                        <a href="/#!/teams/{{team._id}}">{{ team.city }} {{ team.name }}</a>
-                    </button><button class="btn btn-link p-0 rounded-pill text-danger"
-                        ng-click="vm.delete(team._id)">delete</button>
-                </h2>
-                <div id="flush-{{team._id}}" class="accordion-collapse collapse" aria-labelledby={{team._id}}
-                    data-bs-parent="#accordionFlushExample">
+                <h6 class="accordion-header d-flex" id={{team._id}}>
+                    <a class="p-3 me-auto" href="/#!/teams/{{team._id}}">{{ team.city }} {{ team.name }}</a>
+                    <button ng-show="vm.isLoggedIn()"
+                        class="border-0 collapsed text-dark d-flex align-items-center me-2 bg-transparent" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#flush-{{team._id}}" aria-expanded="false"
+                        aria-controls="flush-{{team._id}}">
+                        Edit
+                    </button>
+                    <button ng-show="vm.isLoggedIn()" class="btn btn-link p-0 me-3 rounded-pill text-danger"
+                        ng-click="vm.delete(team._id)">
+                        delete
+                    </button>
+                </h6>
+                <div ng-show="vm.isLoggedIn()" id="flush-{{team._id}}" class="accordion-collapse collapse"
+                    aria-labelledby={{team._id}} data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body text-dark">
                         <form name="vm.teamForm" ng-submit="vm.editTeam(team._id)">
                             City: <input type="text" name="city" ng-model="vm.formTeamEdit.city" /><br />
@@ -74,7 +80,7 @@
             </li>
         </ol> -->
 
-        <form name="vm.teamForm" ng-submit="vm.addTeam()">
+        <form name="vm.teamForm" ng-show="vm.isLoggedIn()" ng-submit="vm.addTeam()">
             Add a new team<br />
             City: <input type="text" name="city" required ng-model="vm.formTeam.city" />
             Name: <input type="text" name="name" required ng-model="vm.formTeam.name" /><br />

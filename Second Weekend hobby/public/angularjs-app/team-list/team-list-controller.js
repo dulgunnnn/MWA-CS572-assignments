@@ -1,6 +1,6 @@
 angular.module("meanBasketball").controller("TeamsController", TeamsController);
 
-function TeamsController(TeamsFactory) {
+function TeamsController(TeamsFactory, AuthFactory) {
   const vm = this;
   vm.title = "Team List";
   const fetchAll = function () {
@@ -34,5 +34,9 @@ function TeamsController(TeamsFactory) {
       console.log(response);
       fetchAll();
     });
+  };
+
+  vm.isLoggedIn = function () {
+    return AuthFactory.isLoggedIn ? true : false;
   };
 }
