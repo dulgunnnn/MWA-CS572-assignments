@@ -2,19 +2,20 @@ const express = require("express");
 const controllerGames = require("../controller/games.controller");
 const controllerReviews = require("../controller/reviews.controller");
 const controllerPublisher = require("../controller/publisher.controller");
+const controllerUsers = require("../controller/users.controller");
 
 const router = express.Router();
 
 router
   .route("/games")
   .get(controllerGames.gamesGetAll)
-  .post(controllerGames.addGame);
+  .post(controllerUsers.authenticate, controllerGames.addGame);
 
 router
   .route("/games/:gameId")
   .get(controllerGames.gamesGetOne)
-  .patch(controllerGames.partialUpdateGame)
-  .delete(controllerGames.deleteGame);
+  .patch(controllerUsers.authenticate, controllerGames.partialUpdateGame)
+  .delete(controllerUsers.authenticate, controllerGames.deleteGame);
 
 router
   .route("/games/:gameId/reviews")

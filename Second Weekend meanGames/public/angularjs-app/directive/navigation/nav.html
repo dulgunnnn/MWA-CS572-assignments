@@ -11,7 +11,7 @@
                 <li class="nav-item">
                     <a class="nav-link" ng-class="vm.isActiveTab('games')" href="/#!/games">Games</a>
                 </li>
-                <li class="nav-item">
+                <li ng-hide="vm.isLoggedIn()" class="nav-item">
                     <a class="nav-link" ng-class="vm.isActiveTab('register')" href="/#!/register">Register</a>
                 </li>
             </ul>
@@ -25,7 +25,7 @@
                 </form>
                 <div ng-show="vm.isLoggedIn()" class="d-flex">
                     <div class="d-flex align-items-center text-dark me-3">{{ vm.loggedInUser }}</div>
-                    <button class="btn btn-sm btn-outline-secondary" ng-click="vm.logout">Logout</button>
+                    <button class="btn btn-sm btn-outline-secondary" ng-click="vm.logout()">Logout</button>
                 </div>
             </div>
         </div>

@@ -17,7 +17,7 @@ module.exports.register = (req, res) => {
       User.create(newUser, (err, user) => {
         if (err) {
           console.log("err", err);
-          res.status(500).json({ message: "Something went wrong" });
+          res.status(500).json({ message: "Something went wrong", err: err });
           return;
         }
 

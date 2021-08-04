@@ -16,8 +16,12 @@ function GamesController(GamesFactory, $route, AuthFactory) {
   vm.addGame = function () {
     if (vm.gameForm.$valid) {
       GamesFactory.addOneGame(vm.formGame).then(function (response) {
+        if (response.status === 403 || response.status === 401) {
+          alert("Unauthorized");
+        } else {
+          fetchAll();
+        }
         vm.formGame = {};
-        fetchAll();
       });
     }
   };
@@ -32,8 +36,12 @@ function GamesController(GamesFactory, $route, AuthFactory) {
 
   vm.editGame = function (gameId) {
     GamesFactory.editGame(gameId, vm.formGameEdit).then(function (response) {
+      if (response.status === 403 || response.status === 401) {
+        alert("Unauthorized");
+      } else {
+        fetchAll();
+      }
       vm.formGameEdit = {};
-      fetchAll();
     });
   };
 
