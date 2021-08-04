@@ -34,7 +34,6 @@ router
   .get(controllerPublisher.getPublisher)
   .post(controllerPublisher.addPublisher)
   .put(controllerPublisher.updatePublisher)
-  .patch(controllerPublisher.partialUpdatePublisher)
   .delete(controllerPublisher.deletePublisher);
 
 module.exports = router;
